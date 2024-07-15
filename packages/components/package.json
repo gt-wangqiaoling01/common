@@ -2,20 +2,16 @@
     "name": "@common/components",
     "version": "1.0.0",
     "description": "",
-    "main": "lib/index.js",
-    "module": "es/index.js",
+    "main": "./index.ts",
     "scripts": {
-      "build": "vite build"
+      "build": "vite build",
+      "test": "vitest",
+      "coverage": "vitest run --coverage"
     },
-    "keywords": [
-      "common",
-      "vue3组件库"
-    ],
+    "keywords": [],
     "author": "",
     "license": "MIT",
     "dependencies": {
       "@common/utils": "workspace:^1.0.0"
-    },
-    "typings": "lib/index.d.ts"
-  }
-  
+    }
+}
